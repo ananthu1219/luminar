@@ -119,14 +119,14 @@ footer img {
     width: 200px;
 }
 .courses {
-    display: flex;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 40px;
-    align-items: center;
-    justify-content: space-evenly;
     padding-left: 100px;
     padding-right: 100px;
-    
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .course-card {
@@ -209,3 +209,4 @@ footer img {
     transform: translateY(-5px); /* lift slightly */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
  }
+
